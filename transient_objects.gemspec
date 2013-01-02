@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
   s.version     = TransientObjects::VERSION
   s.authors     = ["Gregory Silcox"]
   s.email       = ["greg.silcox@cumulosity.com"]
-  s.homepage    = "cumulosity.com"
+  s.homepage    = "http://cumulosity.com"
   s.summary     = "Support objects that require no database."
   s.description = "These objects are non-persistent, and only support persistent objects, controllers or views."
 
