@@ -2,7 +2,7 @@ PATH
   remote: .
   specs:
     transient_objects (0.0.1.alpha)
-      rails (~> 3.2.9)
+      rails (~> 3.2.10)
 
 GEM
   remote: http://rubygems.org/
