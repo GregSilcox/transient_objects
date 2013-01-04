@@ -27,6 +27,12 @@ load 'rails/tasks/engine.rake'
 
 Bundler::GemHelper.install_tasks
 
+# rspec
+require 'rspec/core/rake_task'
+
+RSpec::Core::RakeTask.new(:spec)
+
+#test::unit
 require 'rake/testtask'
 
 Rake::TestTask.new(:test) do |t|
@@ -37,4 +43,5 @@ Rake::TestTask.new(:test) do |t|
 end
 
 
-task :default => :test
+# task default: :spec
+task default: :test
