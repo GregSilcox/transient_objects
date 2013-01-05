@@ -44,6 +44,13 @@ module TransientObjects
     test "families" do
       assert_equal 1, @um.families.size
     end
+
+    # This needs to be tested in the main app
+    test "merge duplicate users" do
+      # @um.merge_duplicate_users @um.families[0]
+      # @flintstones.reload
+      # assert_equal 1, @flintstones.members.count
+    end
   end
 
 end

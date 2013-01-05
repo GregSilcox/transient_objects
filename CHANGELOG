@@ -1,3 +1,8 @@
+## v0.2.0
+
+* Automated merging for duplicate users within a family.
+
+
 ## v0.1.0
 
 * Releasing finders for users and families that need to be merged.

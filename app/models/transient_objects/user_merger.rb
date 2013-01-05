@@ -24,5 +24,15 @@ module TransientObjects
       families
     end
 
+    def merge_duplicate_users structure
+      u1 = structure[1][0][1][0][0]
+      u2 = structure[1][0][1][0][1]
+      if u2.links.empty?
+        u1.merge u2
+      else
+        u2.merge u1
+      end
+    end
+
   end
 end
